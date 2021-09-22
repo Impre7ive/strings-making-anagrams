@@ -29,7 +29,7 @@ namespace Strings_making_anagrams {
 
             int minSymbolsForAnagram = RetrieveMinimalDeletionToGetAnagram(anagram, a, b);
 
-            Console.WriteLine($"Minimal number of removed symbols for an anagram creation is {minSymbolsForAnagram}");
+            Console.WriteLine($"Minimal number of removed symbols for an anagram creation is {minSymbolsForAnagram}.");
             Console.ReadLine();
         }
     }
